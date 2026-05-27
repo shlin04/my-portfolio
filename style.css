@@ -30,7 +30,8 @@ nav ul li a:hover {
 }
 
 .hero {
-    background-color: #7c3aed;
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
     color: white;
     padding: 100px 20px;
     text-align: center;
@@ -123,28 +124,77 @@ footer {
     font-size: 14px;
 }
 
+.card {
+    border: 1px solid #ececec;
+    border-radius: 18px;
+    padding: 20px;
+    width: 230px;
+}
 
+.card h3 {
+    color: #222;
+    margin-bottom: 15px;
+}
 
+.card p {
+    color: #555;
+    margin-bottom: 12px;
+}
 
+.card a {
+    color:#7c3aed;
+    text-decoration: none;
+    font-weight: bold;
+}
 
+.card a:hover {
+    text-decoration: underline;
+}
 
+.card-image {
+    height: 140px;
+    background-color: rgb(200, 159, 238);
+    border-radius: 14px;
+    opacity: 0.4;
+    font-size: 22px;
+    font-weight: bold;
+    color: #7701ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+}
 
+.portfolio-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
+.contact-form label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
 
+.contact-form input, 
+.contact-form select, 
+.contact-form textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #d1d6db;
+    border-radius: 12px;
+    font-size: 15px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.contact-form input[type="submit"] {
+    margin-top: 20px;
+    background-color: #1e2a78;
+    color: white;
+    width: 200px;
+    font-size: 16px;
+}
 
 
